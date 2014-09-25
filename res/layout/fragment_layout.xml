@@ -1,0 +1,58 @@
+<com.androidhive.dashboard.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#CC0000" >
+	<!--  News Feed Button -->
+    <Button
+        android:id="@+id/btn_news_feed"
+         android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/call"
+        android:text="News Feed" />
+    
+	<!--  Friends Button -->
+    <Button
+        android:id="@+id/btn_friends"
+         android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/email"
+        android:text="Friends" />
+    
+	<!--  Messages Button -->
+    <Button
+        android:id="@+id/btn_messages"
+         android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/sms"
+        android:text="Messages" />
+	 
+    <!--  Places Button -->
+    <Button
+        android:id="@+id/btn_places"
+         android:layout_width="22dp"
+        android:layout_height="wrap_content"
+         android:drawableTop="@drawable/sos"
+        android:text="Places" />
+
+    <!--  Events Button -->
+
+    <Button
+        android:id="@+id/btn_events"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/www"
+        android:text="Events" 
+        />
+
+    <!--  Photos Button -->
+    <Button
+        android:id="@+id/btn_photos"
+         android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/call"
+        android:text="Photos"
+        android:visibility="invisible" />
+
+</com.androidhive.dashboard.DashboardLayout>
